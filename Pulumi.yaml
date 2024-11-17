@@ -1,0 +1,7 @@
+name: YSAC
+description: A minimal AWS Go Pulumi program
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go

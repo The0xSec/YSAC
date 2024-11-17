@@ -1,0 +1,6 @@
+{
+	"user_count": 10,
+	"developer_group": "Developers",
+	"operators_group": "Operators",
+	"vpc_policy": "{ \"Version\": \"2012-10-17\", \"Statement\": [{ \"Effect\": \"Allow\", \"Action\": [\"ec2:DescribeVpcs\", \"ec2:ModifyVpcAttribute\", \"ec2:DescribeSubnets\", \"ec2:CreateSubnet\", \"ec2:DeleteSubnet\", \"ec2:DescribeRouteTables\", \"ec2:CreateRouteTable\", \"ec2:DeleteRouteTable\", \"ec2:AssociateRouteTable\", \"ec2:DisassociateRouteTable\", \"ec2:CreateRoute\", \"ec2:DeleteRoute\"], \"Resource\": [\"arn:aws:ec2:*:*:vpc/vpc-12345678\", \"arn:aws:ec2:*:*:subnet/*\", \"arn:aws:ec2:*:*:route-table/*\"], \"Condition\": { \"StringEquals\": { \"ec2:vpc\": \"vpc-12345678\" } } }] }"
+}
