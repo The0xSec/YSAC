@@ -1,0 +1,23 @@
+cloud-architecture-diagram
+
+Identity-Dev[icon: user]
+Pulumi[icon: user-cog]
+
+AWS-Account[icon: aws]{
+  Developer[icon: circle] {
+    User-A[icon: user]
+    User-B[icon: user]
+    Lambda-Policy[icon: aws-lambda]
+  }
+  Operator[icon: circle] {
+    VPC-Policy[icon: aws-vpc]
+    User-1[icon: user]
+    User-2[icon: user]
+    User-3[icon: user]
+    User-4[icon: user]
+    User-5[icon: user]
+  }
+}
+
+Identity-Dev -> Pulumi -> Operator
+Identity-Dev -> Pulumi -> Developer
