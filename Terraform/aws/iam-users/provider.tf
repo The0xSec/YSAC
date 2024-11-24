@@ -6,4 +6,3 @@ module "iam_users" {
   source     = "../../modules/iam_user-modules"
   user_count = 5
 }
-
