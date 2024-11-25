@@ -1,0 +1,27 @@
+{
+    "tags": {
+        "IAC": {
+            "tag_key": {
+                "@@assign": "IAC"
+            },
+            "tag_value": {
+                "@@assign": [
+                    "Terraform",
+                    "Pulumi"
+                ]
+            }
+        },
+        "Vertical": {
+            "tag_key": {
+                "@@assign": "Vertical"
+            },
+            "tag_value": {
+                "@@assign": [
+                    "Cloud-Engineering",
+                    "Identity-Engineering",
+                    "Security-Engineering"
+                ]
+            }
+        }
+    }
+}
