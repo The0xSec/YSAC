@@ -1,0 +1,15 @@
+{
+    "tags": {
+        "IAC": {
+            "tag_key": {
+                "@@assign": "IAC"
+            },
+            "tag_value": {
+                "@@assign": [
+                    "Terraform",
+                    "Pulumi"
+                ]
+            }
+        }
+    }
+}
